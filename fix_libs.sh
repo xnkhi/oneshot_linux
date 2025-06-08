@@ -5,8 +5,9 @@ else
 fi
 
 if [ -f librt.so* ]; then
-	cp *.so* ./backuplibs
 	rm librt.so*
+	cp *.so* ./backuplibs
+	ln -s /usr/lib/librt.so* ./backuplibs
 else
 	echo "No libs found."
 fi
