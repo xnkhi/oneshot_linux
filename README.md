@@ -8,7 +8,7 @@ If you're using a Linux-based operating system, the Steam version of OneShot won
 
 ## Install git
 
-To download this program, you'll need to install a program called git. Install git using your distribution's native package manager.
+To download this program, you'll need to install a program called git. Install git using your distrobution's native package manager.
 
 ###### Debian, Ubuntu, Mint, and derivatives
 `sudo apt install git`
